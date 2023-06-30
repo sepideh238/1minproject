@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1minmath login form</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"defer></script>
+</head>
+<body>
+ <div class="container">
+    <div class="login_form">
+        <div class="login_form_img">
+            <img src="./loginimage.png" alt="login form">
+        </div>
+        <div class="login_form_right">
+            <h1>
+        ورود
+            </h1>
+            <form action="">
+                <label for="input-email">ایمیل</label>
+                <input type="email" id="user">
+                <label for="input-pass">رمز عبور</label>
+                <input type="password" id="pass">
+                <br>
+                <div class="checkbox">
+                <label class="container">مرابخاطر بسپار
+                    <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+                </label>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary" id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">ورود</button>
+                <h3>رمز عبور را فراموش کرده اید؟</h3>
+            </form>
+        </div>
+    </div>
+ </div> 
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="message">
+     
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">باشه</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

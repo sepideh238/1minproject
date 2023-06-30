@@ -1,0 +1,42 @@
+@import "./variabels";
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+font-family: "myfont";
+src: url(../myfont/Vazir.woff2);
+font-weight: bold;
+}
+ div{
+    font-family: "myfont";
+}
+.Math{
+    font-size: large;
+    font-weight: bold;
+   color: $secondery-color;
+   text-decoration: none;
+}
+.icon{
+    color:white;
+background-color:$primery-color;
+    display: inline-flex;
+    padding:15px;
+    border-radius: 15px;
+}
+.btn-danger{
+    background-color:$primery-color;
+}
+.btn-outline-danger{
+    border-radius: 15px;
+    background-color:$primery-color;
+    color:$light-color;
+}
+.btn-danger{
+    background-color:$primery-color;
+    color:$light-color;
+}
+.bg-main{
+    background-color: $new-color;
+}
+
